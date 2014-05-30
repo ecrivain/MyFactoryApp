@@ -29,9 +29,9 @@
     [super viewDidLoad];
     
     
-    [self.urlField setAccessibilityLabel:NSLocalizedString(@"URL", @"Accessiblity Label for URL Text Field")];
+     NSURL *url = [NSURL URLWithString:@"http://workthefactory.com/membership/"];
 
-    [self.myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlField.text]]];
+    [self.myWebView loadRequest:[NSURLRequest requestWithURL:url]];
 
 }
 
