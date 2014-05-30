@@ -21,6 +21,7 @@
 		FC7EDDF519389FBD00F45B0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7EDDD719389FBD00F45B0C /* UIKit.framework */; };
 		FC7EDDFD19389FBD00F45B0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC7EDDFB19389FBD00F45B0C /* InfoPlist.strings */; };
 		FC7EDDFF19389FBD00F45B0C /* MyFactoryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7EDDFE19389FBD00F45B0C /* MyFactoryAppTests.m */; };
+		FC7EDE0A1938ABF700F45B0C /* OIOJoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7EDE091938ABF700F45B0C /* OIOJoinViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FC7EDDFA19389FBD00F45B0C /* MyFactoryAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFactoryAppTests-Info.plist"; sourceTree = "<group>"; };
 		FC7EDDFC19389FBD00F45B0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC7EDDFE19389FBD00F45B0C /* MyFactoryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFactoryAppTests.m; sourceTree = "<group>"; };
+		FC7EDE081938ABF700F45B0C /* OIOJoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIOJoinViewController.h; sourceTree = "<group>"; };
+		FC7EDE091938ABF700F45B0C /* OIOJoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIOJoinViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				FC7EDDE219389FBD00F45B0C /* OIOAppDelegate.h */,
 				FC7EDDE319389FBD00F45B0C /* OIOAppDelegate.m */,
 				FC7EDDE519389FBD00F45B0C /* Main.storyboard */,
+				FC7EDE081938ABF700F45B0C /* OIOJoinViewController.h */,
+				FC7EDE091938ABF700F45B0C /* OIOJoinViewController.m */,
 				FC7EDDE819389FBD00F45B0C /* OIOViewController.h */,
 				FC7EDDE919389FBD00F45B0C /* OIOViewController.m */,
 				FC7EDDEB19389FBD00F45B0C /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7EDE0A1938ABF700F45B0C /* OIOJoinViewController.m in Sources */,
 				FC7EDDEA19389FBD00F45B0C /* OIOViewController.m in Sources */,
 				FC7EDDE419389FBD00F45B0C /* OIOAppDelegate.m in Sources */,
 				FC7EDDE019389FBD00F45B0C /* main.m in Sources */,
